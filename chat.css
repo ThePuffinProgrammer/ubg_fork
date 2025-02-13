@@ -161,6 +161,7 @@ div.user-message, div#user-info {
 .message-content {
   white-space: pre-wrap;
   tab-size: 2;
+  overflow-wrap: anywhere;
 }
 
 .message-content * {
