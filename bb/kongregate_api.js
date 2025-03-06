@@ -64,3 +64,4 @@ if(-1!==a.indexOf("out of memory")){c="UnityWebGL:Memory:Browser";break b}}
 c=void 0}
 if(c&&!l[c]){var d=decodeURIComponent(kongregateAPI.flashVarsObject().kongregate_host||"*");l[c]=!0;top.postMessage({kongregateGameError:{type:c}},d)}}catch(e){}};if("undefined"!==typeof UnityLoader&&UnityLoader.Error&&UnityLoader.Error.handler){var b=UnityLoader.Error.handler;UnityLoader.Error.handler=function(c){return a(c.message)?!0:"function"===typeof b&&b.apply(UnityLoader.Error,arguments)};this.unityErrorHandlerInstalled=!0}
 var c=window.Module;if(c&&c.TOTAL_MEMORY&&c.codeUrl){var d=c.errorhandler;c.errorhandler=function(b,c,e){return a(b)?!0:"function"===typeof d&&d(b,c,e)};this.unityErrorHandlerInstalled=!0}}}}}());
+ //var miloader.js 
